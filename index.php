@@ -5,7 +5,7 @@ header('Content-Type: text/html; charset=UTF-8');
 header("Cache-Control: no-store, no-cache");
 include 'txprotect.php';
 /*'此处修改你的域名*/
-$target = '';
+$target = 'https://uptime-monitor.cccccccc.qzz.io/';
 
 function checkmobile() {
 	$useragent = strtolower($_SERVER['HTTP_USER_AGENT']);
